@@ -50,7 +50,7 @@ body {
 header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
-  padding: 1rem 2rem;
+  
 }
 
 header .container {
