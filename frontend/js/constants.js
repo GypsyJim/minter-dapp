@@ -1,9 +1,9 @@
-const contractAddress = "0xfb466f6bF7da07843eD783d29d9359cCA63b9706"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x9182b049D5D253c523Ef40eb451dC8550e681526"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Gypsy Jimmy Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The Gypsy Jimmy NFT Project is a decentralized, character collection. 5 x 1000 unique gyspy chracters released in stages of 1000. First and foremost is 1000 NFTS of our old pal Jimmy';
+const welcome_h2 = "";
+const welcome_p = 'The Gypsy Jimmy NFT Project is a decentralized, character collection. 5 x 1000 unique characters. First x1000 of our old pal Jimmy';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
