@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #000000;
+  --bg-color-transparent: #cccccc80;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #dce0db;
+  --accent-color: #000000;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -24,12 +24,15 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color);  
   display: flex;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  background-image: url("Gypsy.png");
+  background-position: center,center;
+  background-size: contain;
 }
 
 .container {
@@ -47,6 +50,7 @@ body {
 header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
+  padding: 1rem 2rem;
 }
 
 header .container {
